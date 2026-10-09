@@ -218,3 +218,42 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data (large files — never commit)
+data/
+!data/.gitkeep
+
+# Model weights (large files)
+models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data
+data/*
+!data/.gitkeep
+
+# Models  
+models/*
+!models/.gitkeep
