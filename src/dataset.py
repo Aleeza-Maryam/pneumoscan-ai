@@ -8,9 +8,6 @@ import torch
 from torch.utils.data import Dataset
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
-
-
-# ---------- Constants ----------
 CLASSES = ["NORMAL", "PNEUMONIA"]
 CLASS_TO_IDX = {cls: idx for idx, cls in enumerate(CLASSES)}
 

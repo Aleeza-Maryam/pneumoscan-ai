@@ -8,7 +8,7 @@ Pillow>=10.4.0
 albumentations>=1.4.15
 
 # Explainability
-grad-cam>=1.5.0
+torchcam>=0.4.2
 
 # Data & Metrics
 numpy>=2.0.0
